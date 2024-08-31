@@ -21,23 +21,23 @@ class RolesAndPermissionsSeeder extends Seeder
 
         // Define permissions
         $owner_permission = [
-            'create apartment',
-            'edit apartment',
-            'delete apartment',
-            'view own apartment',
+            'create property',
+            'edit property',
+            'delete property',
+            'view own property',
             'respond to inquiries',
         ];
 
         $client_permission = [
-            'search apartment',
-            'view apartment',
+            'search property',
+            'view property',
             'contact owner',
         ];
 
         $admin_permission = [
             'manage users',
-            'manage apartments',
-            'view all apartments',
+            'manage property',
+            'view all property',
             'manage inquiries',
         ];
 
